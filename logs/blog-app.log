@@ -1,0 +1,31 @@
+2023-04-23T13:12:24.733+05:45  INFO 19648 --- [main] com.blogapp.BlogappApplication           : Starting BlogappApplication using Java 17 with PID 19648 (E:\blogapp\blogapp\target\classes started by Admin in E:\blogapp\blogapp)
+2023-04-23T13:12:24.739+05:45  INFO 19648 --- [main] com.blogapp.BlogappApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-23T13:12:26.122+05:45  INFO 19648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-23T13:12:26.135+05:45  INFO 19648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-23T13:12:26.135+05:45  INFO 19648 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-23T13:12:26.280+05:45  INFO 19648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-23T13:12:26.281+05:45  INFO 19648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1451 ms
+2023-04-23T13:12:26.861+05:45  WARN 19648 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 108e76b9-4ebb-45a7-afcb-07f20684b4cb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-04-23T13:12:27.034+05:45  INFO 19648 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@687e6293, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6870c3c2, org.springframework.security.web.context.SecurityContextHolderFilter@d48e998, org.springframework.security.web.header.HeaderWriterFilter@5f05c8d6, org.springframework.security.web.csrf.CsrfFilter@798dad3d, org.springframework.security.web.authentication.logout.LogoutFilter@4fa4f485, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@10272bbb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3a3ed300, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@fb0a08c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a1d526c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@158ae284, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7235f92b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1faf386c, org.springframework.security.web.access.ExceptionTranslationFilter@7a9eccc4, org.springframework.security.web.access.intercept.AuthorizationFilter@f9cab00]
+2023-04-23T13:12:27.171+05:45  INFO 19648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-23T13:12:27.184+05:45  INFO 19648 --- [main] com.blogapp.BlogappApplication           : Started BlogappApplication in 4.002 seconds (process running for 6.447)
+2023-04-23T13:20:16.310+05:45  INFO 19648 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-23T13:20:16.313+05:45  INFO 19648 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-23T13:20:16.315+05:45  INFO 19648 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-23T13:23:22.806+05:45  INFO 13112 --- [main] com.blogapp.BlogappApplication           : Starting BlogappApplication using Java 17 with PID 13112 (E:\blogapp\blogapp\target\classes started by Admin in E:\blogapp\blogapp)
+2023-04-23T13:23:22.819+05:45  INFO 13112 --- [main] com.blogapp.BlogappApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-23T13:23:24.234+05:45  INFO 13112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-23T13:23:24.249+05:45  INFO 13112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-23T13:23:24.250+05:45  INFO 13112 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-23T13:23:24.399+05:45  INFO 13112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-23T13:23:24.399+05:45  INFO 13112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1494 ms
+2023-04-23T13:23:24.817+05:45  INFO 13112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-23T13:23:24.827+05:45  INFO 13112 --- [main] com.blogapp.BlogappApplication           : Started BlogappApplication in 2.756 seconds (process running for 4.021)
+2023-04-23T13:23:56.596+05:45  INFO 13112 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-23T13:23:56.597+05:45  INFO 13112 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-23T13:23:56.598+05:45  INFO 13112 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
